@@ -21,10 +21,9 @@ export default function Navbar() {
               className="text-2xl font-bold text-yellow-600"
               onClick={closeMenu}
             >
-              MyLogo
+              UmarBEK
             </Link>
 
-            {/* Desktop menu */}
             <div className="hidden items-center gap-8 md:flex">
               <Link
                 href="/"

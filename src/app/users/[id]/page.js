@@ -77,14 +77,6 @@ export default async function UserPage({ params }) {
             </div>
 
             <div className="flex flex-wrap gap-3 mt-8">
-              <button className="px-5 py-2.5 rounded-lg bg-yellow-600 text-white font-medium hover:bg-yellow-700 transition">
-                Edit User
-              </button>
-
-              <button className="px-5 py-2.5 rounded-lg bg-red-500 text-white font-medium hover:bg-red-600 transition">
-                Delete User
-              </button>
-
               <Link
                 href="/users"
                 className="px-5 py-2.5 rounded-lg border border-gray-300 font-medium hover:bg-gray-100 transition"
